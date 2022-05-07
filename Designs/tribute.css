@@ -11,6 +11,11 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+#image{
+    max-width : 100%;
+    height : auto;
+}
+
 .break{
     flex-basis: 100%;
     width : 0px;
@@ -30,4 +35,8 @@
     #img-caption{
         font-size : 25px;
     } 
+    #img{
+        height : 100%;
+        width : auto;
+    }
 }
